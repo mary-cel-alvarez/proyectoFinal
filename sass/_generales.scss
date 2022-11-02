@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FCFAEA;
+    font-family: 'Amiri Quran', serif;
+}
+header{
+    background-color: #FAF6D2;
+    width: 100%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar-item a:hover{
+    color:#f9e425;
+}
+
+.navbar-header{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu-mobile img{
+    width: 40px;
+}
+
+.brand-link{
+    width: 65px;
+}
+
+#navbar-header:target .navbar-container{
+    height: 300px;
+}
+
+#navbar-header:target .open{
+    display: none;
+}
+
+#navbar-header:target .close{
+    display: flex;
+}
+
+.navbar-item a{
+    color: black;
+}
+
+.close{
+    display: none;
+}
+
+

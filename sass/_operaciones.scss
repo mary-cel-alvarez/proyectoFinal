@@ -1,0 +1,27 @@
+/*Utilizado en medias*/
+@mixin size ($width, $height){
+    height: $height;
+    width: $width;
+}
+
+.img-fluid-velas{
+    @include size (350px, auto);
+}
+
+.img-fluid-lamparas{
+    @include size (350px, auto);
+}
+
+.img-fluid-alfombras{
+    @include size (350px, auto);
+}
+
+.img-fluid-almohadones{
+    @include size (350px, auto);
+}
+
+/*Utilizado en style.css*/
+.footer{
+        display: flex;
+        width: 100%;
+}
